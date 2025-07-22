@@ -30,19 +30,19 @@ Use Cases:
 
 # Example
 
-Top-5 retrieved chunks for the sample query
-"Hvem er Harald Blåtand?" (eng. "Who is Harald Blåtand"):
+### Top-5 retrieved chunks for the sample query "Hvem er Harald Blåtand?" (eng. "Who is Harald Blåtand"):
 
-Rank Title Category
-1 Harald Blåtand History
-2 Palnatoke History
-3 Harald Blåtand History
-4 Harald Blåtand History
-5 Harald Blåtand History
+| Rank | Title           | Category |
+|------|------------------|----------|
+| 1    | Harald Blåtand   | History  |
+| 2    | Palnatoke        | History  |
+| 3    | Harald Blåtand   | History  |
+| 4    | Harald Blåtand   | History  |
+| 5    | Harald Blåtand   | History  |
 
-Retrieval output:
+### Retrieval output:
 
-Starting retrieval for user_query='Hvem er Harald Blåtand?'...
+```text
 ==================================Top document==================================
 '''Harald Blåtand''', '''''Harald Gormsson''''', '''''Harald den Gode''''' eller
 '''''Harald Gormsen''''' ukendt fødselsår, død senest 987) var søn af kong Gorm
@@ -75,4 +75,9 @@ og deres forgængere''; Vikingeskibsmuseet i Roskilde, Gylling, 2020;
 2017; == Eksterne henvisninger == * * * * * * * * * * * * * * * .
 * * Nationalmuseet - Harald 01 Blåtand Harald 01 Blåtand Kategori:Danskere
 ==================================Metadata======================================
-
+{'title': 'Harald Blåtand', 'categories': ['History'], 'start_index': 0}
+{'title': 'Palnatoke', 'categories': ['History'], 'start_index': 506}
+{'title': 'Harald Blåtand', 'categories': ['History'], 'start_index': 11867}
+{'title': 'Harald Blåtand', 'categories': ['History'], 'start_index': 999}
+{'title': 'Harald Blåtand', 'categories': ['History'], 'start_index': -1}
+```

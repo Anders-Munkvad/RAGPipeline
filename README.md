@@ -1,8 +1,8 @@
 This project implements a semantic search system using a subset of Wikipedia as the knowledge base. Wikipedia articles are embedded using GTE or E5 sentence transformers, then indexed into a FAISS vector store for efficient similarity search. 
-Users can input natural language queries and retrieve the most relevant Wikipedia passages based on semantic similarity, not just keyword matching. The code assumes that a Wikipedia dump has been downloaded at https://dumps.wikimedia.org/dawiki/latest/.
+Users can input natural language queries and retrieve the most relevant Wikipedia passages based on semantic similarity, not just keyword matching. The code assumes that a Wikipedia dump has been downloaded at https://dumps.wikimedia.org/dawiki/latest/. Preprocessing is then performed on the Wikipedia dump to remove irrelevant content and create a subset of relevant articles from specific categories.
 
 Features:
-- Uses either GTE for general purpose embeddings or E5 for multilingual, high-quality sentence embeddings
+- Uses either GTE for general-purpose embeddings or E5 for multilingual, high-quality sentence embeddings
 
 - Fast and scalable FAISS vector index for similarity search
 

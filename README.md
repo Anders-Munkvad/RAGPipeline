@@ -10,7 +10,7 @@ Features:
 
 - Modular setup for swapping in different embedding models / knowledge bases
 
-Tech Stack
+Stack:
 - FAISS for vector indexing
 
 - GTE / E5 sentence transformers via Hugging Face
@@ -19,7 +19,7 @@ Tech Stack
 
 - Subset of Wikipedia dump as the corpus (knowledge base)
 
-Use Cases
+Use Cases:
 - Semantic question answering
 
 - Information retrieval research

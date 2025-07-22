@@ -8,7 +8,7 @@ Features:
 
 - Supports flexible retrieval from Wikipedia-based corpora
 
-- Modular setup for swapping in different embedding models
+- Modular setup for swapping in different embedding models / knowledge bases
 
 Tech Stack
 - FAISS for vector indexing
